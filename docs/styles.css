@@ -1,14 +1,16 @@
 .header {
 	background-color: #FFDDDD;
 	color: #222222;
-	font-size: 24;
+	font-family: "Arial", sans-serif;
+	font-size: 36px;
+	height: 200px;
 	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.header > em {
-	text-decoration: none;
-	font-size: 28;
+.header em {
+	font-style: normal;
+	font-size: 1.5em;
 }
