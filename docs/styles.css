@@ -1,13 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 .pagebar {
-	background-color: #900;
+	background-color: #700;
 	color: #FFF;
-	font-family: "Courier New", "Arial", sans-serif;
+	font-family: "Courier New", monospace;
 }
 
 .header {
 	font-size: 48px;
 	height: 200px;
-	border: 1px solid #000;
 	
 	display: flex;
 	justify-content: center;
@@ -34,14 +38,28 @@
 
 .body {
 	display: flex;
-	width: auto;
 }
 
 .content {
-	width: auto;
+	background-color: #B44;
+	justify-content: center;
+	padding: 20px 40px;
+	flex: 1;
 }
 
 .sidebar {
-	background-color: #333;
+	background-color: #222;
+	flex: initial;
 	width: 250px;
+	font-size: 24px;
+	font-family: "Courier New", monospace;
+}
+
+.sidebar a:link, .sidebar a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.sidebar-link {
+	margin: 1.5em 1em;
 }
