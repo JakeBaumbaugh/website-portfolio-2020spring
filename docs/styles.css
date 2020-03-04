@@ -42,7 +42,7 @@
 
 .content {
 	background-color: #B44;
-	border: 1px solid #FFF;
+	/*border: 1px solid #FFF;*/
 	
 	flex: 1;
 	
@@ -69,6 +69,6 @@
 }
 
 .home-panel {
-	border: 1px dotted #FFF;
+	/*border: 1px dotted #FFF;*/
 	width: 50%;
 }
