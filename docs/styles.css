@@ -42,7 +42,6 @@
 
 .content {
 	background-color: #B44;
-	/*border: 1px solid #FFF;*/
 	
 	flex: 1;
 	
@@ -69,6 +68,10 @@
 }
 
 .home-panel {
-	border: 1px dotted #FFF;
 	width: 50%;
+	padding: 20px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
