@@ -42,7 +42,6 @@
 
 .content {
 	background-color: #B44;
-	padding: 20px 40px;
 	border: 1px solid #FFF;
 	
 	flex: 1;
@@ -71,5 +70,5 @@
 
 .home-panel {
 	border: 1px dotted #FFF;
-	width: 45%;
+	width: 50%;
 }
