@@ -75,3 +75,12 @@
 	justify-content: center;
 	align-items: center;
 }
+
+img {
+	height: auto;
+	transition: height 0.5s;
+}
+
+img:hover {
+	height: 300px;
+}
