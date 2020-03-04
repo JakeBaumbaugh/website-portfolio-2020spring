@@ -78,7 +78,7 @@
 
 img {
 	height: auto;
-	transition: height 0.5s;
+	transition: width 1s, height 1s;
 }
 
 img:hover {
