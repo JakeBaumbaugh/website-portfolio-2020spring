@@ -69,5 +69,6 @@
 }
 
 .home-panel {
-	width: auto;
+	border: 1px solid #FFF;
+	width: 50%;
 }
