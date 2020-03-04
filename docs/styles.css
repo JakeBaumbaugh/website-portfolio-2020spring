@@ -69,7 +69,7 @@
 
 .home-panel {
 	width: 50%;
-	padding: 0px;
+	height: 300;
 	
 	display: flex;
 	justify-content: center;
