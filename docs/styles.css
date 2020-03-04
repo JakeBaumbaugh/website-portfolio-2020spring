@@ -77,8 +77,8 @@
 }
 
 img {
-	height: auto;
-	transition: width 1s, height 1s;
+	height: 240px;
+	transition: width 0.25s, height 0.25s;
 }
 
 img:hover {
