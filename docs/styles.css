@@ -42,9 +42,13 @@
 
 .content {
 	background-color: #B44;
-	justify-content: center;
 	padding: 20px 40px;
+	
 	flex: 1;
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .sidebar {
@@ -62,4 +66,8 @@
 
 .sidebar-link {
 	margin: 1.5em 1em;
+}
+
+.home-panel {
+	width: auto;
 }
