@@ -1,10 +1,14 @@
-var red = color(112,0,0);
-var yellow = color(192,116,32);
-var gray = color(32);
+var red;
+var yellow;
+var gray;
 
 function setup() {
   var canvas = createCanvas(720, 480);
   canvas.parent("program");
+	
+	red = color(112,0,0);
+	yellow = color(192,116,32);
+	gray = color(32);
 }
 
 function draw() {
