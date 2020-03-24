@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-	background(16);
+	background(32);
 	
 	translate(width/2, height/2);
 	var currTime = millis();
