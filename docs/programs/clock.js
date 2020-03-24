@@ -11,22 +11,20 @@ function draw() {
 	
 	background(32);
 	
-	stroke(255,192,255);
+	stroke(192,116,32);
 	strokeWeight(8);
-	ellipse(0,0,360,360);
+	ellipse(0,0,400,400);
 	
-	var h = 2*PI * ( (hour()%12) / 24)
-	stroke(255,192,192);
+	stroke(255,255,255);
+	var h = 2*PI * ( (hour()%12) / 12)
 	strokeWeight(4);
-	line(0,0,90*cos(h),90*sin(h));
+	line(0,0,120*cos(h),120*sin(h));
 	
 	var m = 2*PI * ( minute() / 60)
-	stroke(192,255,192);
 	strokeWeight(2);
-	line(0,0,160*cos(m),160*sin(m));
+	line(0,0,180*cos(m),180*sin(m));
 	
 	var s = 2*PI * ( second() / 60)
-	stroke(192,255,255);
-	strokeWeight(1);
-	line(0,0,160*cos(s),160*sin(s));
+	strokeWeight(2);
+	line(0,0,180*cos(s),180*sin(s));
 }
