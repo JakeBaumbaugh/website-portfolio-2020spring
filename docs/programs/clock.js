@@ -18,15 +18,15 @@ function draw() {
 	var h = -2*PI * ( (hour()%12) / 24)
 	stroke(255,192,192);
 	strokeWeight(4);
-	line(0,0,cos(h),sin(h));
+	line(0,0,180*cos(h),180*sin(h));
 	
 	var m = -2*PI * ( minute() / 60)
 	stroke(192,255,192);
 	strokeWeight(2);
-	line(0,0,cos(m),sin(m));
+	line(0,0,320*cos(m),320*sin(m));
 	
 	var s = -2*PI * ( second() / 60)
 	stroke(192,255,255);
 	strokeWeight(1);
-	line(0,0,cos(s),sin(s));
+	line(0,0,320*cos(s),320*sin(s));
 }
