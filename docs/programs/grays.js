@@ -10,7 +10,8 @@ function setup() {
 	pg = createGraphics(720,480);
 	pg.background(0);
 	pg.loadPixels();
-	for(var i = 0; i < width*height; i++) {
+	var len = 720*480;
+	for(var i = 0; i < len; i++) {
 		pg.pixels[i] = color(map(i%width, 0, width, 0, 255));
 	}
 	pg.updatePixels();
