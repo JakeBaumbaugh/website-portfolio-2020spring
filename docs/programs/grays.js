@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
 	loadPixels();
-	for(int i = 0; i < pixels.length; i++) {
+	for(var i = 0; i < pixels.length; i++) {
 		pixels[i] = map(i%width, 0, width, 0, 255);
 	}
 	updatePixels();
