@@ -1,3 +1,5 @@
+var pg;
+
 function setup() {
   var canvas = createCanvas(720, 480);
   canvas.parent("program");
@@ -5,7 +7,7 @@ function setup() {
 	noStroke();
 	fill(128);
 	
-	var pg = createGraphics(720,480);
+	pg = createGraphics(720,480);
 	pg.background(0);
 	pg.loadPixels();
 	for(var i = 0; i < width*height; i++) {
