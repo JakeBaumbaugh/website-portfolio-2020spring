@@ -6,11 +6,13 @@ function setup() {
 	fill(128);
 	
 	var pg = createGraphics(720,480);
+	pg.background(0);
 	pg.loadPixels();
 	for(var i = 0; i < width*height; i++) {
 		pg.pixels[i] = color(map(i%width, 0, width, 0, 255));
 	}
 	pg.updatePixels();
+	console.log("Hopefully near 255: " + pg.pixels[width-1]);
 }
 
 function draw() {
