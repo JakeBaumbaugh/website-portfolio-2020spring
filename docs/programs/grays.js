@@ -1,13 +1,13 @@
 function setup() {
   var canvas = createCanvas(720, 480);
   canvas.parent("program");
-	loadPixels();
 	
 	noStroke();
 	fill();
 }
 
 function draw() {
+	loadPixels();
 	for(int i = 0; i < pixels.length; i++) {
 		pixels[i] = map(i%width, 0, width, 0, 255);
 	}
