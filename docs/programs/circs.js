@@ -11,7 +11,7 @@ function draw() {
 	stroke(255);
 	strokeWeight(1);
 	ellipse(0,0,400,400);
-	for(var i = 0; i < 2*PI; i+= PI/4) {
+	for(var i = 0; i < PI; i+= PI/8) {
 		line(-200*cos(i), -200*sin(i), 200*cos(i), 200*sin(i));
 	}
 }
