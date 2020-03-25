@@ -1,8 +1,7 @@
 function setup() {
   var canvas = createCanvas(720, 480);
   canvas.parent("program");
-	
-	stroke(255);
+	strokeWeight(1);
 }
 
 function draw() {
@@ -10,17 +9,17 @@ function draw() {
 	background(32);
 	
 	noFill();
-	strokeWeight(1);
+	stroke(255);
 	ellipse(0,0,400,400);
 	
 	for(var i = 0; i < 1; i+= 1/8) {
 		noFill();
-		strokeWeight(1);
+		stroke(255);
 		var posCoord = createVector(200*cos(i*PI), 200*sin(i*PI));
 		var negCoord = createVector(-200*cos(i*PI), -200*sin(i*PI));
 		line(negCoord.x, negCoord.y, posCoord.x, posCoord.y);
 		
-		var t = PI*(i+frameCount/10);
+		var t = PI*(i+frameCount/50);
 		var ler = sin(t);
 		var zero = createVector(0,0);
 		var dotCoord;
