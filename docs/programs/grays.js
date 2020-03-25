@@ -3,7 +3,7 @@ function setup() {
   canvas.parent("program");
 	
 	noStroke();
-	fill();
+	fill(128);
 }
 
 function draw() {
