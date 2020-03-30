@@ -11,7 +11,7 @@ function setup() {
 	pg.background(0);
 	for(var i = 0; i < pg.width; i++) {
 		pg.stroke(map(i,0,pg.width,0,255));
-		pg.line(i,0,i,255);
+		pg.line(i,0,i,pg.height);
 	}
 }
 
