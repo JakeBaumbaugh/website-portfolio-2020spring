@@ -9,13 +9,10 @@ function setup() {
 	
 	pg = createGraphics(720,480);
 	pg.background(0);
-	pg.loadPixels();
-	var len = pg.width * pg.height;
-	for(var i = 0; i < len; i++) {
-		pg.pixels[i] = color(map(i%pg.width, 0, pg.width, 0, 255));
+	for(var i = 0; i < pg.width; i++) {
+		pg.stroke(map(i,0,pg.width,0,255));
+		pg.line(i,0,i,255);
 	}
-	pg.updatePixels();
-	console.log("Hopefully near 255: " + pg.pixels[pg.width-1]);
 }
 
 function draw() {
