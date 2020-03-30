@@ -10,12 +10,12 @@ function setup() {
 	pg = createGraphics(720,480);
 	pg.background(0);
 	pg.loadPixels();
-	var len = 720*480;
+	var len = pg.width * pg.height;
 	for(var i = 0; i < len; i++) {
-		pg.pixels[i] = color(map(i%width, 0, width, 0, 255));
+		pg.pixels[i] = color(map(i%pg.width, 0, pg.width, 0, 255));
 	}
 	pg.updatePixels();
-	console.log("Hopefully near 255: " + pg.pixels[width-1]);
+	console.log("Hopefully near 255: " + pg.pixels[pg.width-1]);
 }
 
 function draw() {
