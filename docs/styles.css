@@ -63,9 +63,15 @@ body {
 	flex-wrap: wrap;
 }
 
+.about {
+	align-items: center;
+	flex-direction: column;
+}
+
 p {
 	margin: 0px 100px;
 	padding-top: 20px;
+	max-width: 60em;
 }
 
 .sidebar {
