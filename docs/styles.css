@@ -101,7 +101,7 @@ p {
 	transition: width 0.25s, height 0.25s;
 }
 
-.home-panel img:hover img:active img:focus {
+.home-panel img:hover,img:active,img:focus {
 	height: 300px;
 }
 
