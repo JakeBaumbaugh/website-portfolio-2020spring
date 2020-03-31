@@ -103,7 +103,7 @@ p {
 	height: 300px;
 }
 
-@media only screen and (max-width: 720 px) {
+@media only screen and (max-width: 720px) {
 	.home-panel {
 		width: 100%;
 		margin: auto 5px;
