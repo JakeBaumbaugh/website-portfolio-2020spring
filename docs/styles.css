@@ -92,11 +92,11 @@ p {
 	align-items: center;
 }
 
-img {
+.home-panel img {
 	height: 240px;
 	transition: width 0.25s, height 0.25s;
 }
 
-img:hover {
+.home-panel img:hover {
 	height: 300px;
 }
