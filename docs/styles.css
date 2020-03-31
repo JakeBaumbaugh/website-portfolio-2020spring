@@ -59,6 +59,10 @@ body {
 	flex-wrap: wrap;
 }
 
+p {
+	margin: 0px 50px;
+}
+
 .sidebar {
 	background-color: #222;
 	
